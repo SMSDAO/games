@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@react-three/drei':
-    specifier: ^10.0.6
-    version: 10.0.6(@react-three/fiber@9.1.2)(@types/react@19.1.2)(@types/three@0.175.0)(react-dom@19.1.0)(react@19.1.0)(three@0.175.0)
+    specifier: ^10.7.7
+    version: 10.7.7(@react-three/fiber@9.1.2)(@types/react@19.1.2)(@types/three@0.175.0)(react-dom@19.1.0)(react@19.1.0)(three@0.175.0)
   '@react-three/fiber':
     specifier: ^9.1.2
     version: 9.1.2(@types/react@19.1.2)(react-dom@19.1.0)(react@19.1.0)(three@0.175.0)
@@ -551,8 +551,8 @@ packages:
     engines: {node: '>=12.4.0'}
     dev: true
 
-  /@react-three/drei@10.0.6(@react-three/fiber@9.1.2)(@types/react@19.1.2)(@types/three@0.175.0)(react-dom@19.1.0)(react@19.1.0)(three@0.175.0):
-    resolution: {integrity: sha512-QtiAv/a1BaP+ZYfp8BphV8BMSO0O1BNhIPye3Zqm5iDqgX6JeiknPR6f2UmzUdBfPLwjZEaqjfULgJFvTUWgkg==}
+  /@react-three/drei@10.7.7(@react-three/fiber@9.1.2)(@types/react@19.1.2)(@types/three@0.175.0)(react-dom@19.1.0)(react@19.1.0)(three@0.175.0):
+    resolution: {integrity: sha512-ff+J5iloR0k4tC++QtD/j9u3w5fzfgFAWDtAGQah9pF2B1YgOq/5JxqY0/aVoQG5r3xSZz0cv5tk2YuBob4xEQ==}
     peerDependencies:
       '@react-three/fiber': ^9.0.0
       react: ^19
@@ -567,7 +567,7 @@ packages:
       '@monogrid/gainmap-js': 3.1.0(three@0.175.0)
       '@react-three/fiber': 9.1.2(@types/react@19.1.2)(react-dom@19.1.0)(react@19.1.0)(three@0.175.0)
       '@use-gesture/react': 10.3.1(react@19.1.0)
-      camera-controls: 2.10.1(three@0.175.0)
+      camera-controls: 3.1.2(three@0.175.0)
       cross-env: 7.0.3
       detect-gpu: 5.0.70
       glsl-noise: 0.0.0
@@ -1607,8 +1607,9 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /camera-controls@2.10.1(three@0.175.0):
-    resolution: {integrity: sha512-KnaKdcvkBJ1Irbrzl8XD6WtZltkRjp869Jx8c0ujs9K+9WD+1D7ryBsCiVqJYUqt6i/HR5FxT7RLASieUD+Q5w==}
+  /camera-controls@3.1.2(three@0.175.0):
+    resolution: {integrity: sha512-xkxfpG2ECZ6Ww5/9+kf4mfg1VEYAoe9aDSY+IwF0UEs7qEzwy0aVRfs2grImIECs/PoBtWFrh7RXsQkwG922JA==}
+    engines: {node: '>=22.0.0', npm: '>=10.5.1'}
     peerDependencies:
       three: '>=0.126.1'
     dependencies:
